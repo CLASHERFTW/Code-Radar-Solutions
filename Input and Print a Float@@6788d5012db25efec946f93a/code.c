@@ -6,6 +6,6 @@ int main() {
     float f;
     printf("enter a number ");
     scanf("%f",&f);
-     printf("%2f",f);
+     printf("%g",f);
     return 0;
 }
