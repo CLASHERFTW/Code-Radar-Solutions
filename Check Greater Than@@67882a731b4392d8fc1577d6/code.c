@@ -1,11 +1,25 @@
-#include<stdio.h>
-int main(){
-    int a,b;
-    scanf("%d",&a);
-    scanf("%d",&b);
-    if(a>b);{
-        printf("true");}
-        else{
-            print("false");
-        }
+#include <stdio.h>
+
+void compareNumbers(int a, int b) {
+    if (a > b) {
+        printf("True");
+    } else if (a < b) {
+        printf("False");
+    } else {
+        printf("Both numbers are equal\n");
     }
+}
+
+int main() {
+    int num1, num2;
+    
+    
+    scanf("%d", &num1);
+    
+   
+    scanf("%d", &num2);
+    
+    compareNumbers(num1, num2);
+
+    return 0;
+}
