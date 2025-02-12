@@ -3,7 +3,7 @@
 void compareNumbers(int a, int b) {
     if (a == b) {
         printf("True");
-    } else if  {
+    } else   {
         printf("False");
     } 
     
