@@ -5,9 +5,8 @@ void compareNumbers(int a, int b) {
         printf("True");
     } else if (a < b) {
         printf("False");
-    } else {
-        printf("Both numbers are equal\n");
-    }
+    } 
+    
 }
 
 int main() {
