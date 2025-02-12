@@ -1,22 +1,16 @@
 #include <stdio.h>
 
-void compareNumbers(int a) {
-    if (a!>0) {
-        printf("True");
-    } 
-    
-}
-
 int main() {
-    int num1, num2;
+    int num;
     
-    
-    scanf("%d", &num1);
     
    
-   
+    scanf("%d", &num);
     
-    compareNumbers(num1, num2);
-
+   
+    if (num <= 0) {
+        printf("true");
+    }
+    
     return 0;
 }
