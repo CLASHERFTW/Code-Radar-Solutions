@@ -11,7 +11,7 @@ int main() {
     area = PI * radius * radius;
 
     
-    printf("Area: %.3f", area);
+    printf("Area: %.2f", area);
 
     return 0;
 }
