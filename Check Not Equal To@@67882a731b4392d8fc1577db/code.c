@@ -2,9 +2,9 @@
 
 void compareNumbers(int a, int b) {
     if (a != b) {
-        printf("True");
-    } else  (a==b) {
         printf("False");
+    } else  (a==b) {
+        printf("True");
     } 
     
 }
