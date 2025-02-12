@@ -4,14 +4,14 @@
 int main() {
     float radius, area;
 
-    // Taking input from user
+    
     scanf("%f", &radius);
 
-    // Calculating area
+   
     area = PI * radius * radius;
 
-    // Displaying the result
-    printf(" Area:%.2f\n", area);
+    
+    printf(" Area: %.2f\n", area);
 
     return 0;
 }
