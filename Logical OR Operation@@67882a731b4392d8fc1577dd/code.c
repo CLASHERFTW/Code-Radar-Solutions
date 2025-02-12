@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 void compareNumbers(int a, int b) {
-    if (a||b>0) {
+    if (a||b>=0) {
         printf("True");
     } else   {
         printf("False");
