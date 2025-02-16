@@ -7,7 +7,7 @@ int mian(){
             count++;
         }
     }if (count==2){
-        prinf("Prime");
+        printf("Prime");
     }
     else{
         printf("Not Prime");
