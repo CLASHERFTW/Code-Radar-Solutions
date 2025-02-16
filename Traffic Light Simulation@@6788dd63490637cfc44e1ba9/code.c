@@ -19,7 +19,7 @@ int main() {
             break;
        
         default:
-            printf("Invalid Grade\n");
+            printf("Invalid input\n");
     }
 
     return 0;
