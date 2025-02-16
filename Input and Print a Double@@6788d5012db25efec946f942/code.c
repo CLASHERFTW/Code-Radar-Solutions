@@ -1,13 +1,13 @@
 #include <stdio.h>
 
 int main() {
-    char num[50]; // Buffer to store input as a string
+    double num;
 
-   
-    scanf("%s", num); // Read input as a string
+    
+    scanf("%lf", &num);
 
-    // Printing the exact input
-    printf("You entered: %s\n", num);
+    // Printing with exactly 4 decimal places
+    printf("You entered: %.4f\n", num);
 
     return 0;
 }
