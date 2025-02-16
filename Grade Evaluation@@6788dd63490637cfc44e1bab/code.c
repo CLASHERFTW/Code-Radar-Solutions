@@ -4,7 +4,7 @@ int main() {
     char grade;
     
     // Taking input
-    printf("Enter grade (A, B, C, D, F): ");
+    
     scanf(" %c", &grade);  // Added space before %c to ignore whitespace
 
     // Switch case to determine grade description
