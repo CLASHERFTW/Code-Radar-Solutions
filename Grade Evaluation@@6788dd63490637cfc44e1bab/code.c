@@ -22,4 +22,11 @@ int main() {
             printf("Below Average\n");
             break;
         case 'F':
-           
+            printf("Fail\n");
+            break;
+        default:
+            printf("Invalid Grade\n");
+    }
+
+    return 0;
+}
