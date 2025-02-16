@@ -1,13 +1,13 @@
 #include <stdio.h>
 
 int main() {
-    double num;
+    char num[50]; // Buffer to store input as a string
 
-    
-    scanf("%lf", &num);
+   
+    scanf("%s", num); // Read input as a string
 
-    // Printing the number
-    printf("You entered: %lf\n", num);
+    // Printing the exact input
+    printf("You entered: %s\n", num);
 
     return 0;
 }
