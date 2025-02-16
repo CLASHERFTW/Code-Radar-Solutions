@@ -10,8 +10,9 @@ int main() {
     // Loop to calculate sum
     for (i = 1; i <= n; i++) { // Start from 1 instead of 0
         sum += i;
+        
     }
-
+printf("%d",sum);
     // Display result
   
 
