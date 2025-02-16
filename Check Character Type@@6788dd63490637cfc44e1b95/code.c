@@ -21,7 +21,7 @@ int main() {
     }
     // If it's none of the above, it must be a special character
     else {
-        printf("Special character");
+        printf("Special Character");
     }
 
     return 0;
