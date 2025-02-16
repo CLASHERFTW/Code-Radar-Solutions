@@ -1,25 +1,25 @@
-#include<stdio.h>
-int main(){
+#include <stdio.h>
+
+int main() {
     char grade;
-    scanf("%c",&grade);
-switch(grade);
-case 'A':
-printf("Excellent");
-break;
-case 'B':
-printf("Good");
-break;
-case 'C':
-printf("Average");
-break;
-case 'D':
-printf("Below Average");
-break;
-case 'F':
-printf("Fail");
-break;
-    return 0;
-default:
-printf("Invalid Grade");
-return 0;
-}
+    
+    // Taking input
+    printf("Enter grade (A, B, C, D, F): ");
+    scanf(" %c", &grade);  // Added space before %c to ignore whitespace
+
+    // Switch case to determine grade description
+    switch (grade) {
+        case 'A':
+            printf("Excellent\n");
+            break;
+        case 'B':
+            printf("Good\n");
+            break;
+        case 'C':
+            printf("Average\n");
+            break;
+        case 'D':
+            printf("Below Average\n");
+            break;
+        case 'F':
+           
