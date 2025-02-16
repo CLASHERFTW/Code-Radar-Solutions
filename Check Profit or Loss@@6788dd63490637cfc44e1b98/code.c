@@ -12,7 +12,7 @@ int main(){
     }
     else if (cp==sp)
     {
-        printf("no profit no loss");
+        printf("No Profit No Loss");
     }
     return 0;
 }
