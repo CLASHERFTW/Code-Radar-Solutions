@@ -23,7 +23,7 @@ int main() {
             if (b != 0) // Prevent division by zero
                 printf("%d\n", a / b);
             else
-                printf("Error: Division by zero is not allowed.\n");
+                printf("Error");
             break;
         default:
             printf("Error: Invalid operator.\n");
