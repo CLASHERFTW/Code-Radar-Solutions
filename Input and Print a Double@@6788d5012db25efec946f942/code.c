@@ -1,10 +1,13 @@
 #include <stdio.h>
 
-
-
 int main() {
-    float a;
-scanf("%f",&a);
-printf("You entered: %.4f",a);
+    double num;
+
+    
+    scanf("%lf", &num);
+
+    // Printing the number
+    printf("You entered: %lf\n", num);
+
     return 0;
 }
