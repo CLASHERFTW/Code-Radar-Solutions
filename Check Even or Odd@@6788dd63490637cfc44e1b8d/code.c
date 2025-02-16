@@ -7,7 +7,7 @@ int main() {
     
 
     if (num % 2 == 0) {
-        printf("Even", );
+        printf("Even");
     } else {
         printf("Odd");
     }
