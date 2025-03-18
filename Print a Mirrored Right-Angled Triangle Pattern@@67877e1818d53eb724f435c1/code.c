@@ -15,7 +15,7 @@ int main() {
         }
         // Inner loop for stars
         for (j = 1; j <= i; j++) {
-            printf("* ");
+            printf("*");
         }
         printf("\n"); // Move to next line
     }
