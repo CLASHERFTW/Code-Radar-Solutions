@@ -3,7 +3,7 @@
 int main() {
     int i, j, n;
     
-    printf("Enter a number: ");
+    
     scanf("%d", &n);
     
     for(i = n; i >= 1; i--) {  // Start from n and decrease
