@@ -3,7 +3,6 @@
 int main() {
     int i, j, n, space;
     
-    
     scanf("%d", &n);
     
     for (i = 1; i <= n; i++) {  
@@ -12,15 +11,11 @@ int main() {
             printf(" ");
         }
         
-        // Print increasing numbers
-        for (j = 1; j <= i; j++) {
+        // Print increasing numbers (without extra space)
+        for (j = 1; j < i; j++) {
             printf("%d ", j);
         }
-        
-        // Print decreasing numbers
-        for (j = i - 1; j >= 1; j--) {
-            printf("%d ", j);
-        }
+        printf("%d", i); // Print the last number without trailing space
         
         printf("\n");  // Move to next row
     }
