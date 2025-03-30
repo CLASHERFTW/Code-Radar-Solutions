@@ -13,7 +13,7 @@ int main() {
         
         // Print increasing numbers (without extra space)
         for (j = 1; j < i; j++) {
-            printf("%d ", j'A'+j-1);
+            printf("%c ", 'A'+j-1);
         }
         printf("%d", i); // Print the last number without trailing space
         
