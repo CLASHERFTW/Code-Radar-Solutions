@@ -13,7 +13,7 @@ int main() {
         
         // Print increasing alphabets
         for (j = 1; j < i; j++) {
-            printf("%c", 'A' + j - 1);
+            printf("%c ", 'A' + j - 1);
         }
         printf("%c ", 'A' + i - 1); // Print the last letter without space
         
